@@ -10,7 +10,7 @@ import java.util.Set;
 
 public record CreateUserRequest(
         @NotBlank
-        @Size(max = 80)
+        @Size(max = 70)
         String username,
 
         @NotBlank

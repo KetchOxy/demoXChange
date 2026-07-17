@@ -1,7 +1,7 @@
-package org.generation.italy.houseCup.security;
+package org.generation.italy.demoxchange.security;
 
 import com.nimbusds.jose.jwk.source.ImmutableSecret;
-import org.generation.italy.houseCup.model.repositories.AppUserRepository;
+import org.generation.italy.demoxchange.model.repositories.AppUserRepository;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

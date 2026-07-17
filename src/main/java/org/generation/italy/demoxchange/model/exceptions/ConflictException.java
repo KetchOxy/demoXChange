@@ -1,4 +1,4 @@
-package org.generation.italy.houseCup.model.exceptions;
+package org.generation.italy.demoxchange.model.exceptions;
 
 public class ConflictException extends RuntimeException {
     private final String errorCode;

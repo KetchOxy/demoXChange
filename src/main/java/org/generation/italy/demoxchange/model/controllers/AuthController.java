@@ -1,11 +1,11 @@
-package org.generation.italy.houseCup.controllers;
+package org.generation.italy.demoxchange.model.controllers;
 
 import jakarta.validation.Valid;
-import org.generation.italy.houseCup.model.dto.CreateUserRequest;
-import org.generation.italy.houseCup.model.dto.LoginRequest;
-import org.generation.italy.houseCup.model.dto.LoginResponse;
-import org.generation.italy.houseCup.model.dto.UserDto;
-import org.generation.italy.houseCup.services.AuthService;
+import org.generation.italy.demoxchange.model.dto.CreateUserRequest;
+import org.generation.italy.demoxchange.model.dto.LoginRequest;
+import org.generation.italy.demoxchange.model.dto.LoginResponse;
+import org.generation.italy.demoxchange.model.dto.UserDto;
+import org.generation.italy.demoxchange.services.AuthService;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

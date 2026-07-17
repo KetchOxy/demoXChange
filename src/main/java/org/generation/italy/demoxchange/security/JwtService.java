@@ -1,6 +1,6 @@
-package org.generation.italy.houseCup.security;
+package org.generation.italy.demoxchange.security;
 
-import org.generation.italy.houseCup.model.entities.AppUser;
+import org.generation.italy.demoxchange.model.entities.AppUser;
 import org.springframework.security.oauth2.jose.jws.MacAlgorithm;
 import org.springframework.security.oauth2.jwt.JwtClaimsSet;
 import org.springframework.security.oauth2.jwt.JwtEncoder;

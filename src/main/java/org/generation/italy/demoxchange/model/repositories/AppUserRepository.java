@@ -1,6 +1,6 @@
-package org.generation.italy.houseCup.model.repositories;
+package org.generation.italy.demoxchange.model.repositories;
 
-import org.generation.italy.houseCup.model.entities.AppUser;
+import org.generation.italy.demoxchange.model.entities.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

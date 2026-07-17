@@ -1,4 +1,4 @@
-package org.generation.italy.houseCup.model.entities;
+package org.generation.italy.demoxchange.model.entities;
 
 public enum UserRole {
     STUDENT,

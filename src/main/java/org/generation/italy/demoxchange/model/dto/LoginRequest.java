@@ -1,4 +1,4 @@
-package org.generation.italy.houseCup.model.dto;
+package org.generation.italy.demoxchange.model.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

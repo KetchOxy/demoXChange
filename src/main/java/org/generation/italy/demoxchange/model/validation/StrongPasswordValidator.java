@@ -1,4 +1,4 @@
-package org.generation.italy.houseCup.model.validation;
+package org.generation.italy.demoxchange.model.validation;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;

@@ -1,4 +1,4 @@
-package org.generation.italy.houseCup.security;
+package org.generation.italy.demoxchange.security;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

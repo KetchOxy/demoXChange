@@ -1,6 +1,6 @@
-package org.generation.italy.houseCup.security;
+package org.generation.italy.demoxchange.security;
 
-import org.generation.italy.houseCup.model.entities.AppUser;
+import org.generation.italy.demoxchange.model.entities.AppUser;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

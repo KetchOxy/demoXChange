@@ -1,8 +1,8 @@
-package org.generation.italy.houseCup.security;
+package org.generation.italy.demoxchange.security;
 
-import org.generation.italy.houseCup.model.entities.AppUser;
-import org.generation.italy.houseCup.model.entities.UserRole;
-import org.generation.italy.houseCup.model.repositories.AppUserRepository;
+import org.generation.italy.demoxchange.model.entities.AppUser;
+import org.generation.italy.demoxchange.model.entities.UserRole;
+import org.generation.italy.demoxchange.model.repositories.AppUserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;

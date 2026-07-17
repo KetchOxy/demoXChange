@@ -1,4 +1,4 @@
-package org.generation.italy.houseCup.model.entities;
+package org.generation.italy.demoxchange.model.entities;
 
 import jakarta.persistence.*;
 
@@ -34,11 +34,11 @@ public class AppUser {
     private Set<UserRole> roles = new HashSet<>();
 
     // optional back references to domain entities
-    @OneToOne(mappedBy = "appUser")
-    private Student student;
+//    @OneToOne(mappedBy = "appUser")
+//    private Student student;
 
-    @OneToOne(mappedBy = "appUser")
-    private Teacher teacher;
+//    @OneToOne(mappedBy = "appUser")
+//    private Teacher teacher;
 
     public AppUser() {}
 
@@ -87,19 +87,19 @@ public class AppUser {
     }
 
     // Domain back refs
-    public Student getStudent() {
-        return student;
-    }
-
-    public void setStudent(Student student) {
-        this.student = student;
-    }
-
-    public Teacher getTeacher() {
-        return teacher;
-    }
-
-    public void setTeacher(Teacher teacher) {
-        this.teacher = teacher;
-    }
+//    public Student getStudent() {
+//        return student;
+//    }
+//
+//    public void setStudent(Student student) {
+//        this.student = student;
+//    }
+//
+//    public Teacher getTeacher() {
+//        return teacher;
+//    }
+//
+//    public void setTeacher(Teacher teacher) {
+//        this.teacher = teacher;
+//    }
 }
